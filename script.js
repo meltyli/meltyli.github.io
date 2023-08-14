@@ -18,3 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    AOS.init({
+        duration: 800, // Animation duration in milliseconds
+        easing: "ease-in-out", // Easing for animation
+        once: true, // Only animate elements once
+    });
+});
