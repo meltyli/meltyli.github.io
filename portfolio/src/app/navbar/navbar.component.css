@@ -1,16 +1,16 @@
 /* Navigation styles */
 nav {
-    background-color: #333;
-    color: white;
+    position: fixed;
     display: flex;
     align-items: center;
     padding: 10px;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+    color: white;
 }
 
 

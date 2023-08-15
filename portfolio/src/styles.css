@@ -203,7 +203,6 @@ header {
     /* background-image: url('header-bg.jpg'); */
     background-size: cover;
     text-align: center;
-    padding: 100px;
     color: white;
     background-blend-mode: overlay;
 }
