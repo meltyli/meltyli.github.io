@@ -42,5 +42,6 @@ testem.log
 Thumbs.db
 
 # user defined
-/portfolio/src/app/test/
-/portfolio/src/app/test/*
+portfolio/src/app/test/
+# portfolio/src/app/test/*
+# portfolio/src/app/test/main.html
