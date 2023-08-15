@@ -1,0 +1,197 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #555;
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 20px;
+    flex: 1;
+}
+
+.feature:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+}
+
+.feature-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hero section styles */
+.hero {
+    /* background-image: url('hero-bg.jpg'); */
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+    color: white;
+}
+
+/* About section styles */
+.about {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Technologies section styles */
+.technologies {
+    padding: 100px 0;
+    background-color: white;
+}
+
+.technology {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.technology h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Portfolio section styles */
+.portfolio {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.portfolio-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-button:hover {
+    background-color: #ddd;
+}
+
+/* Intro section styles */
+.intro {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Projects section styles */
+.projects {
+    padding: 100px 0;
+    text-align: center;
+    background-color: white;
+}
+
+.project {
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* About Me section styles */
+.about-me {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.about-me p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
