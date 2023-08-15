@@ -11,6 +11,22 @@
     padding: 10px;
 }
 
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #555;
+    background-color: #444;
+    transform: scale(1.05);
+}
+
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;

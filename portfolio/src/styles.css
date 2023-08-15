@@ -53,22 +53,6 @@ button {
     font-family: Cambria, Georgia, serif;
 }
 
-.cta-button {
-    display: inline-block;
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.cta-button:hover {
-    background-color: #555;
-    background-color: #444;
-    transform: scale(1.05);
-}
-
 button {
     background-color: #eee;
     border: none;
@@ -121,6 +105,7 @@ button:disabled {
 
 .cta-button {
     animation: fadeInUp 0.8s ease both;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .feature {
@@ -132,10 +117,6 @@ button:disabled {
 
 .contact-button {
     transition: background-color 0.3s ease;
-}
-
-.cta-button {
-    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 /* Animate On Scroll styles */
