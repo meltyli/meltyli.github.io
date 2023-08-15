@@ -8,17 +8,19 @@
 </head>
 
 <body>
-  <header>
-    <app-navbar></app-navbar>
-  </header>
-  
-  <main>
-    <router-outlet></router-outlet>
-  </main>
+  <div class="app-container">
+    <header>
+      <app-navbar></app-navbar>
+    </header>
 
-  <footer>
-    <p>&copy; 2023 MyWebsite. All rights reserved.</p>
-  </footer>
+    <main class="main-content max-width-container">
+      <router-outlet></router-outlet>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 melty. All rights reserved.</p>
+    </footer>
+  </div>
 </body>
 
 </html>

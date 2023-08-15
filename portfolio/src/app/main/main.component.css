@@ -1,10 +1,3 @@
-/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .logo {
     font-size: 1.5rem;
     margin-right: auto;
@@ -19,6 +12,7 @@
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    margin: 10px;
 }
 
 .cta-button:hover {
@@ -144,6 +138,7 @@
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    margin: 10px;
 }
 
 .contact-button:hover {
