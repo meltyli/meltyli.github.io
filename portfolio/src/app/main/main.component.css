@@ -17,22 +17,6 @@
     font-size: 3.5rem;
 }
 
-.cta-button {
-    display: inline-block;
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.cta-button:hover {
-    background-color: #555;
-    background-color: #444;
-    transform: scale(1.05);
-}
-
 /* Features section styles */
 .features {
     display: flex;

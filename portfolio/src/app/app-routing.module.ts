@@ -8,12 +8,12 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ServicesComponent } from './services/services.component';
 
 const routes: Routes = [
-  { path: 'main', component: MainComponent },
-  { path: '', redirectTo: 'main', pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'portfolio', component: PortfolioComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
+  { path: '', redirectTo: 'main', pathMatch: 'full' },
+  { path: 'main', component: MainComponent }
 ];
 
 @NgModule({
